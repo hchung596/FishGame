@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/tank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="216dp"
+        android:contentDescription="tank"
+        app:layout_constraintBottom_toBottomOf="@+id/table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/tank" />
+
+    <ImageView
+        android:id="@+id/table"
+        android:layout_width="454dp"
+        android:layout_height="345dp"
+        android:contentDescription="table"
+        android:rotationX="21"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927"
+        app:srcCompat="@drawable/table" />
+
+    <ImageView
+        android:id="@+id/crack"
+        android:layout_width="202dp"
+        android:layout_height="211dp"
+        android:layout_marginBottom="212dp"
+        android:contentDescription="crack"
+        app:layout_constraintBottom_toBottomOf="@+id/table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928"
+        app:srcCompat="@drawable/crack" />
+
+    <ImageView
+        android:id="@+id/fish"
+        android:layout_width="147dp"
+        android:layout_height="120dp"
+        android:contentDescription="fish"
+        app:layout_constraintBottom_toBottomOf="@+id/tank"
+        app:layout_constraintEnd_toEndOf="@+id/tank"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="@+id/tank"
+        app:layout_constraintTop_toTopOf="@+id/tank"
+        app:layout_constraintVertical_bias="0.638"
+        app:srcCompat="@drawable/fish2" />
+
+    <ImageView
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="108dp"
+        android:contentDescription="button134"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/button1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
